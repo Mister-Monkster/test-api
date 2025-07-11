@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends, Query, HTTPException
 
-from src.app.api.dependencies.depends import ServiceDep
-from src.app.api.models.models import Duration, Interval, Date
+from app.api.dependencies.depends import ServiceDep
+from app.api.models.models import Duration, Interval, Date
 
 router = APIRouter(prefix="/test-api")
 

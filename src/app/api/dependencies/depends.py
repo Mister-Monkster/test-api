@@ -3,7 +3,7 @@ from typing import Annotated
 from fastapi import Depends
 from httpx import AsyncClient
 
-from src.app.api.services.service import GraphicService
+from app.api.services.service import GraphicService
 
 
 async def get_graphic():

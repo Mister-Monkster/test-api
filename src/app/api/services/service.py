@@ -1,6 +1,6 @@
 import datetime
 
-from src.app.api.models.models import Duration, Interval, Date
+from app.api.models.models import Duration, Interval, Date
 
 
 class GraphicService:

@@ -2,7 +2,7 @@ from typing import AsyncGenerator
 import pytest_asyncio
 from fastapi import FastAPI
 from httpx import AsyncClient, ASGITransport
-from src.main import app
+from main import app
 
 
 @pytest_asyncio.fixture(scope="function")
